@@ -21,21 +21,21 @@ img{
   text-align: center;
 }
 .header-color{
-  color:;
+  color: ;
 }
 .main-container{
   min-height: 100vh;
 }
 
 .background{
-  background-color: #009688;
+  background-color: #000202;
 }
 
 .lobster{
   font-family: 'Lobster', cursive;
 }
 
-}
+
 .lato{
     font-family: 'Lato', sans-serif;
 }
