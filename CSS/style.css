@@ -1,10 +1,10 @@
-img{
+/* img{
 
   width: 100%;
   max-width: 600px;
   height: 70%;
   max-height: 400px;
-}
+} */
 
 .main-header{
   background-color:#00796B;
@@ -21,7 +21,7 @@ img{
   text-align: center;
 }
 .header-color{
-  color: ;
+  color: #FFFFFF;
 }
 .main-container{
   min-height: 100vh;
