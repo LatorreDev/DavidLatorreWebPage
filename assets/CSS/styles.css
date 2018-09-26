@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
 }
 
 h1,
@@ -36,6 +37,10 @@ h1 strong
     border:1px solid gray;
     border-radius: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    margin: 10px; 
+    background: white;
+    box-sizing: border-box;
 }
 
 .project-details
@@ -46,6 +51,11 @@ h1 strong
 .project-imageContainer
 {
     width: 500px;
+}
+
+.portfolio
+{
+    background: #fafafa ;
 }
 
 .hero
