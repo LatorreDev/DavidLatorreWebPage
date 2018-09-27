@@ -1,5 +1,15 @@
-/* Selector descendente */
-/* body header div nav ol li a */
+.wrapper {
+    /* order: 1px solid red; */
+    width: 1000px;
+    margin: 0px auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    /* height: inherit;
+*/
+    flex-wrap: inherit;
+    box-shadow: 3px5px33px#888888;
+}
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
@@ -11,70 +21,283 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
+h6 {
     font-family: 'Fjalla One', sans-serif;
 }
 
 
-h1
-{
+h1 {
     font-size: 40px;
     line-height: 1.5em;
     font-weight: 600;
     letter-spacing: -.2px;
     color: white;
-    
+    margin: 0px;
+
 }
 
-h1 strong 
-{
+h1 strong {
     color: #026fff;
 }
 
-.project
-{
-    border:1px solid gray;
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.project {
+    border: 1px solid gray;
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
-    margin: 10px; 
     background: white;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
 }
 
-.project-details
-{
+.project a {
+    color: black;
+    text-decoration: none;
+}
+
+.project-course {
+    margin: 10px 0px;
+}
+
+.project-details {
     width: 500px;
 }
 
-.project-imageContainer
-{
+.project-date,
+.project-url {
+    margin: 10px 0px;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Fjalla One';
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.project-imageContainer {
     width: 500px;
 }
 
-.portfolio
-{
-    background: #fafafa ;
+.portfolio {
+    background: #fafafa;
+    padding: 20px;
 }
 
-.hero
-{
+.hero {
     height: 300px;
-    background-image: url('../Img/GoogleMe.jpg');
-    background-size: 500px, 300px;
-    background-repeat: no-repeat;
-    background-position-x:right;
     background-color: #1b2127;
+    display: flex;
+    align-items: center;
 }
 
-.header
-{
-    background-color: #1b2127; 
+.hero-image {
+    object-fit: cover;
+}
+
+
+.menu {
+    height: inherit;
+}
+
+.header {
+    background-color: #1b2127;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-weight: 600;
 }
 
-/* Selector descendente */.header a {
+.header ol {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    height: inherit;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+.header a {
     color: white;
     text-decoration: none;
+}
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+}
+
+
+
+.event-list-title {
+    margin-left: 20px;
+}
+
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #f4fbff;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+.event-detail {
+    margin: 20px;
+    margin-top: -40px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.event-url {
+    border: 1px solid #056fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact {
+    background: #056fff;
+    color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    border: 0;
+    font-size: 30px;
+}
+
+.fa {
+    display: inline-block;
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 1px solid white;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-medium {
+    background: white;
+    color: black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.form-email input {
+    border-color: gray;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border-style: solid;
+
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 10px 0px;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+
+}
+
+.form-email h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer {
+    background: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer img {
+    vertical-align: middle;
 }

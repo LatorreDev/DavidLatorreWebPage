@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,89 +8,144 @@
     <title>Latorre Dev</title>
     <link rel="icon" type="image/webp" href="assets/Img/david_latorre_favicon.webp">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
-    <link href="assets/CSS/styles.css" rel="stylesheet" >
+    <link href="assets/CSS/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body >
+
+<body>
     <header class="header">
-        <figure class="logo">
-            <img src="assets/Img/Tux_circle.svg.png" alt="Logo">
-        </figure>
-        <nav class="menu">
-            <ol> <!-- Listas ordenadas numeran -->
-                <li> <!--list item -->
-                    <a  class ="link" href="#Portafolio">Portafolio</a> <!-- Ancla o anchor-->
-                </li>
-                <li> <!--list item -->
-                    <a href="#Eventos">Experiencia</a> <!-- Ancla o anchor-->
-                </li>
-                <li> <!--list item -->
-                    <a href="#Contact">Trabajemos juntos</a> <!-- Ancla o anchor-->
-                </li>
-            </ol>
-        </nav>
+        <div class="wrapper">
+            <figure class="logo">
+                <img src="assets/Img/Tux_circle.svg.png" height="50px" alt="Logo">
+            </figure>
+            <nav class="menu">
+                <ol>
+                    <!-- Listas ordenadas numeran -->
+                    <li>
+                        <!--list item -->
+                        <a class="link" href="#Portafolio">Portafolio</a> <!-- Ancla o anchor-->
+                    </li>
+                    <li>
+                        <!--list item -->
+                        <a href="#Eventos">Experiencia</a> <!-- Ancla o anchor-->
+                    </li>
+                    <li>
+                        <!--list item -->
+                        <a href="#Contacto">Trabajemos juntos</a> <!-- Ancla o anchor-->
+                    </li>
+                </ol>
+            </nav>
+        </div>
     </header>
-    <section class="hero"> <!--Sección principal-->
-        <h1> 
-            Hola soy  <strong>David Latorre</strong>, Fullstack Developer &  Dev Ops <br/> <!--Salto de línea-->
-            apasionado por el <strong>  desarrollo </strong>.
-        </h1>
-        <!-- <img src="assets/Img/GoogleMe.jpg" alt="Dave At Google Bogota" width="500px"> -->
+    <section class="hero">
+        <!--Sección principal-->
+        <div class="wrapper">
+            <h1>
+                Hola soy <strong>David Latorre</strong>, Fullstack Developer & Dev Ops <br />
+                <!--Salto de línea-->
+                apasionado por el <strong> desarrollo </strong>.
+            </h1>
+            <img class="hero-image" src="assets/Img/GoogleMe.jpg" alt="Dave At Google Bogota" width="420px">
+        </div>
     </section>
-        
+
     <section id="Portafolio" class="portfolio">
-        <h2>Portafolio (Proyectos destacados)</h2>
+        <div class="wrapper">
+            <h2>Portafolio (Proyectos destacados)</h2>
             <article class="project">
                 <div class="project-details">
                     <h3 class="project-title">Alien Defender</h3>
                     <h6 class="project-course">Javascript mini game</h6>
                     <p class="project-date"> <small> <strong>Fecha: </strong> Nov/2013</small></p>
-                    <p class="project-url"> <small> <strong>Puedes verlo en: </strong> </small></p> </br>
-                    <a href="https://github.com/LatorreDev/AlienDefender" target="_blank">Alien Defender on Github</a> 
+                    <p class="project-url"> <small> <strong>Puedes verlo en: </strong> </small></p> <br />
+                    <a href="https://github.com/LatorreDev/AlienDefender" target="_blank">Alien Defender on Github</a>
                     <p class="project-description">Un pequeño juego en javascript puro desarrollado en Uniminuto</p>
                 </div>
-            <figure class="project-imageContainer">
-            <img  class="project-image" src="assets/Img/AlienDefenderX.png" alt="Alien Defender X Screenshot" width="800">
-            </figure>
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="assets/Img/AlienDefenderX.png" alt="Alien Defender X Screenshot"
+                        width="500">
+                </figure>
             </article>
+        </div>
     </section>
 
     <section id="Portafolio" class="portfolio">
-                <article class="project">
-                    <div class="project-details">
-                        <h3 class="project-title">FOSS guide for game development</h3>
-                        <h6 class="project-course">Foss Guide</h6>
-                        <p class="project-date"> <small> <strong>Fecha: </strong> Jul/2018</small></p>
-                        <p class="project-url"> <small> <strong>Puedes verlo en: </strong> </small></p> </br>
-                        <a href="https://github.com/LatorreDev/Free-And-open-Software-for-Game-Development" target="_blank">FOSS guide to game development on Github</a> 
-                        <p class="project-description">A complete guide to free and open source soft for game development</p>
-                    </div>
+        <div class="wrapper">
+            <article class="project">
                 <figure class="project-imageContainer">
-                <img  class="project-image" src="assets/Img/FOSS_Guide.png" alt="Alien Defender X Screenshot" width="800">
+                    <img class="project-image" src="assets/Img/FOSS_Guide.png" alt="Alien Defender X Screenshot" width="500">
                 </figure>
-                </article>
-        </section>
-    
+                <div class="project-details">
+                    <h3 class="project-title">FOSS guide for game development</h3>
+                    <h6 class="project-course">Foss Guide</h6>
+                    <p class="project-date"> <small> <strong>Fecha: </strong> Jul/2018</small></p>
+                    <p class="project-url"> <small> <strong>Puedes verlo en: </strong> </small></p> </br>
+                    <a href="https://github.com/LatorreDev/Free-And-open-Software-for-Game-Development" target="_blank">FOSS
+                        guide to game development on Github</a>
+                    <p class="project-description">A complete guide to free and open source soft for game development</p>
+                </div>
 
-    <section id="Eventos">
-        <h2>Mas sobre mi experiencia</h2>
-        <article class="event">
-            <figure class="enent-imageContainer"> <!-- Contenedor padre-->
-            <img class="event-image" src="assets/Img/flisolteam.jpg" alt="Flisol Team" width="800">
-            </figure>
-            <h3>Flisol 2018</h3>
-            <p>Miembro de apoyo en la organización del evento más grande de soft libre en Colombia</p>
-            <a class="event-utl">ver fotos</a> <!--Link-->
-        </article>
+            </article>
+        </div>
     </section>
-        
+    <div class="wrapper">
+        <h2 class="event-list-title">Mas sobre mi experiencia</h2>
+    </div>
+    <section id="Eventos" class="event-list">
+        <div class="wrapper">
+            <article class="event">
+                <figure class="enent-imageContainer">
+                    <!-- Contenedor padre-->
+                    <img class="event-image" src="assets/Img/flisolteam.jpg" alt="Flisol Team" width="400">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Flisol 2018</h3>
+                    <p class="event-description">Miembro de apoyo en la organización del evento más grande de soft
+                        libre en
+                        Colombia</p>
+                    <a href="#" class="event-url">ver fotos</a>
+                    <!--Link-->
+                </div>
+            </article>
+
+            <article class="event">
+                <figure class="enent-imageContainer">
+                    <!-- Contenedor padre-->
+                    <img class="event-image" src="assets/Img/flisol2017instalador.jpg" alt="Flisol 2017" width="400">
+                </figure>
+                <div class="event-detail">
+                    <h3 class="event-title">Flisol 2017</h3>
+                    <p class="event-description">Instalador de software libre y opensource en el evento más grande de
+                        soft
+                        libre en Colombia</p>
+                    <a href="#" class="event-url">ver fotos</a>
+                    <!--Link-->
+                </div>
+            </article>
+        </div>
+    </section>
+
     <section id="Contacto" class="contact">
+        <div class="wrapper">
         <form action="/suscripcion/" class="form-email">
             <h3>¿Creamos algo juntos?</h3>
-        <input type="text" placeholder="Déjame tu e- mail :D">
-        <button>"Enviar"</button>
+            <input type="text" placeholder="Déjame tu e- mail :D">
+            <button>"Enviar"</button>
         </form>
+            <div class="social">
+            <a href="https://medium.com/@LatorreDev" target="_blank" class="fa fa-medium"></a>
+            <a href="https://twitter.com/LatorreDev" target="_blank" class="fa fa-twitter"></a>
+            <a href="https:github.com/LatorreDev" target="_blank" class="fa fa-github"></a>
+
+            </div>
+        </div>
     </section>
-    
-    <footer class="footer">footer</footer>
+
+    <footer class="footer">
+    <div class="wrapper">
+            <p>Designed by David Latorre <a href="latorredev.com"></a> </p>
+    </div>
+    </footer>
 </body>
+
 </html>
