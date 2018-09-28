@@ -73,6 +73,22 @@ h2 {
     width: 500px;
 }
 
+.portfolio a { 
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: #000000;
+    padding: 10px 0px;
+    color: #026fff;
+    border: 3px solid ;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 10px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
 .project-date,
 .project-url {
     margin: 10px 0px;
