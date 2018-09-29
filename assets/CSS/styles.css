@@ -1,3 +1,18 @@
+/* Important */
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px;
+}
+
+
 .wrapper {
     /* order: 1px solid red; */
     width: 1000px;
@@ -48,6 +63,96 @@ h2 {
     font-weight: bold;
     font-size: 24px;
 }
+
+/*------------------------------------- */
+
+/* Header */
+
+.menu {
+    height: inherit;
+}
+
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+    align-items: center;
+    height: inherit;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+figure {
+    margin: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.language
+
+{
+
+        display: flex;
+        background: transparent;
+        color: #000000;
+        padding: 10px 0px;
+        color: #ffffff;
+        border: 3px solid ;
+        border-radius: 5px;
+        width: 50px;
+        font-weight: 600;
+        text-align: center;
+
+}
+
+/* --------------------------------- */
+
+/* Hero */
+
+.hero {
+    height: 300px;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+ /* --------------------------------*/
+
+/* Project & portfolio */
 
 .project {
     border: 1px solid gray;
@@ -117,82 +222,9 @@ h2 {
     padding: 20px;
 }
 
-.hero {
-    height: 300px;
-    background-color: #1b2127;
-    display: flex;
-    align-items: center;
-}
+/* ------------------------------- */
 
-.hero-image {
-    object-fit: cover;
-}
-
-
-.menu {
-    height: inherit;
-}
-
-.header {
-    background-color: #1b2127;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 70px;
-    align-items: center;
-    font-weight: 600;
-}
-
-.header ol {
-    display: flex;
-    height: inherit;
-    align-items: center;
-    height: inherit;
-}
-
-ol,
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.header ol li {
-    height: inherit;
-    display: flex;
-    align-items: center;
-}
-
-.header a {
-    display: flex;
-    align-items: center;
-    height: inherit;
-    padding: 0 10px;
-}
-
-figure {
-    margin: 0;
-}
-
-.header a {
-    color: white;
-    text-decoration: none;
-}
-
-.flexbox {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.box {
-    width: 200px;
-    height: 200px;
-    border: 1px solid red;
-    margin: 20px;
-}
-
-
-
+/* Events */ 
 .event-list-title {
     margin-left: 20px;
 }
@@ -236,6 +268,10 @@ figure {
     border-radius: 10px;
     font-weight: 600px;
 }
+
+/* ----------------------------- */
+
+/* Contact */
 
 .contact {
     background: #056fff;
@@ -307,6 +343,10 @@ figure {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+/* ---------------------------------- */
+
+/* footer */
+
 .footer {
     background: #1b2127;
     color: white;
@@ -318,3 +358,20 @@ figure {
 .footer img {
     vertical-align: middle;
 }
+
+/* -------------------------------- */
+
+/* Powered by David Latorre 
+
+      .--.
+     |o_o |
+     ||_/ | 
+    //   \ \ 
+   (|     | )
+  /'\_   _/'\ 
+  \___)-(____) 
+
+  with love by GNU/Linux
+  Oh hail the penguin!!!
+
+*/
