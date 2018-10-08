@@ -493,6 +493,11 @@ figure {
         margin: -2em .5em .5em .5em;
         padding: 1em;
     }
+
+    .fa
+    {
+        font-size: 15px;
+    }
 }
 
 
