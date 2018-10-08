@@ -381,12 +381,6 @@ figure {
 /* 4k */
 @media screen and (max-width: 2000px)
 {
-    
-}
-
-/* Desk */
-@media screen and (max-width: 1024px)
-{
     .wrapper
     {
         padding: 0 1em;
@@ -402,8 +396,9 @@ figure {
 
     h1
     {
-        font-size: 2em;
+        font-size: 4em;
         z-index: 2;
+        padding: 10px;
     }
 
     .hero-image
@@ -418,13 +413,24 @@ figure {
     }
 }
 
+/* Desk */
+@media screen and (max-width: 1024px)
+{
+    .wrapper
+    {
+        padding: 0px;
+    }
+}
+
 /* Tablet */
 @media screen and (max-width: 767px)
 {
 
+   
+
    h1
    {
-       padding: 50px;
+       padding: 20px;
    }
 
     .header
@@ -442,6 +448,7 @@ figure {
     {
         height: 50px;
         justify-content: center;
+        width: auto;
     }
 
     .header a 
