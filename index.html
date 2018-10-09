@@ -204,12 +204,14 @@ const ipad = window.matchMedia('screen and (max-width: 767px)');
 const menu = document.querySelector('.menu');
 const burgerbutton  = document.querySelector('#burger-menu');
 
-ipad.addListener(validation)
+ burgerbutton.addEventListener('click', hideShow);
+
+ipad.addListener(validation);
 
 function validation(event)
 {
     if (event.matches){
-        burgerbutton.addEventListener('click', hideShow)
+        burgerbutton.addEventListener('click', hideShow);
     }
 }
 
