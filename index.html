@@ -14,10 +14,14 @@
     <link href="assets/CSS/styles.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  <!--Fa icons for firefox-->
+    <script src="/assets/Js/scripts.js"></script>
 </head>
 
 <body>
-    <i class="icon-menu"></i>
+
+<script type="text/javascript" src="/assets/Js/scripts.js"></script>
+
+    <i class="icon-menu burger-button" id="burger-menu"></i>
     <header class="header">
         <div class="wrapper">
             <figure class="logo">
@@ -190,6 +194,38 @@ Half Life 3 Confirmed
             <p>Designed by David Latorre <a href="latorredev.com"></a> </p>
     </div>
     </footer>
+
+<!-- Scripts -->
+
+<script>
+
+const ipad = window.matchMedia('screen and (max-width: 767px)'); 
+
+const menu = document.querySelector('.menu');
+const burgerbutton  = document.querySelector('#burger-menu');
+
+ipad.addListener(validation)
+
+function validation(event)
+{
+    if (event.matches){
+        burgerbutton.addEventListener('click', hideShow)
+    }
+}
+
+function hideShow()
+{
+    if(menu.classList.contains('is-active')){
+    menu.classList.remove('is-active');
+    }
+    else
+    {
+        menu.classList.add('is-active');
+    }
+}
+
+</script>
+
 </body>
 
 </html>
