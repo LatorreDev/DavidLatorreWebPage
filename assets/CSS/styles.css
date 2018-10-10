@@ -328,6 +328,26 @@ figure {
     color: #056fff;
 }
 
+
+/* Certifications*/
+
+.cert-title
+{
+color: #026fff;
+text-transform: uppercase;
+font-family: 'Source Sans Pro', sans-serif;
+margin-bottom: 40px;
+font-weight: bold;
+font-size: 60px;
+}
+
+.certifications {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 /* ----------------------------- */
 
 /* Contact */
@@ -645,6 +665,11 @@ figure {
     .fa
     {
         font-size: 15px;
+    }
+
+    .cert-title
+    {
+        font-size: 20px;
     }
 }
 
