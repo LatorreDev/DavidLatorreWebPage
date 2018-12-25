@@ -384,6 +384,11 @@ font-size: 60px;
     opacity: 0.7;
 }
 
+.fa-linkedin {
+    background: rgb(0, 119, 181);
+    color: white;
+}
+
 .fa-medium {
     background: white;
     color: black;
