@@ -399,6 +399,12 @@ font-size: 60px;
     color: white;
 }
 
+.fa-gitlab
+{
+    background: #FC6D27;
+    color: white;
+}
+
 .fa-github {
     background: black;
     color: white;
