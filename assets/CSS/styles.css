@@ -410,6 +410,12 @@ font-size: 60px;
     color: white;
 }
 
+.fa-hackerrank 
+{
+    background: #25b658;
+    color: white;
+}
+
 .form-email input {
     border-color: gray;
     padding: 5px 20px;
