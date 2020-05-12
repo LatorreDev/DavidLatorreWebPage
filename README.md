@@ -1,4 +1,4 @@
-# DavidLatorre.github.io
+# Latorredev.com
 David Latorre's personal web page
 
 ## This page is made using only
