@@ -9,6 +9,19 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.blinking-cursor {
+    font-weight: bold;
+    color: #71aa34;
+    animation: blink 0.8s steps(2, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -868,7 +881,18 @@ input, select, textarea {
 
 				.row > .col-7-large {
 					width: 58.33333%;
+				}.blinking-cursor {
+					font-weight: bold;
+					color: #71aa34;
+					animation: blink 0.8s steps(2, start) infinite;
 				}
+				
+				@keyframes blink {
+					to {
+						visibility: hidden;
+					}
+				}
+				
 
 				.row > .off-7-large {
 					margin-left: 58.33333%;
@@ -1017,6 +1041,8 @@ input, select, textarea {
 						}
 
 		}
+
+
 
 		@media screen and (max-width: 980px) {
 
