@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>start on LatorreDev</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in start on LatorreDev</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acerca de mí</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&amp;gt; whoami davidlatorre &amp;gt; uptime 34 años conectado – SRE | DevSecOps | Linux Evangelist &amp;gt; hostname latorredev.com &amp;gt; lsb_release -a Description: DevOps Engineer especializado en sistemas Linux, seguridad, Kubernetes y automatización. Codename: autodidacta Distribution: Bogotá, Colombia (Worldwide capable) &amp;gt; cat /skills.txt - Linux (Arch, Fedora, Debian) - Kubernetes, Docker, Terraform - CI/CD, GitOps, Ansible - Ciberseguridad y DevSecOps - Rust, Go, Bash - GitHub Actions, Jenkins, Prometheus, Grafana &amp;gt; cat /philosophy.</description>
+    </item>
+    <item>
+      <title>Proyectos</title>
+      <link>http://localhost:1313/projects/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/</guid>
+      <description>&amp;gt; ls /projects kube-hardened-deployments.txt ansible-firewall-tor.md terraform-vault-gcp.md &amp;gt; cat kube-hardened-deployments.txt Proyecto: Kubernetes Hardened Deployments Descripción: YAMLs reforzados con OPA Gatekeeper, escaneos con Trivy y seguridad de red con Cilium. GitHub: https://github.com/tuusuario/kube-hardened-deployments &amp;gt; cat ansible-firewall-tor.md Proyecto: Firewall automatizado + Tor Gateway Descripción: Playbook para crear un gateway transparente basado en Tor + reglas de iptables. GitHub: https://github.com/tuusuario/ansible-tor-firewall &amp;gt; cat terraform-vault-gcp.md Proyecto: Vault + GCP Infra como código Descripción: Automatización de secretos y recursos en GCP con módulos Terraform reutilizables.</description>
+    </item>
+  </channel>
+</rss>
