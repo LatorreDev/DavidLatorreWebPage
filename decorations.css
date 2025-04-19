@@ -1,0 +1,23 @@
+.background-top {
+    background: url('./assets/clouds.png') top repeat-x;
+    background-size: auto 100%; /* Ajusta altura, repite en horizontal */
+    height: 18vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  
+  .background-bottom {
+    background: url('./assets/sea.png') bottom repeat-x ;
+    background-size: contain;
+    height: 22vh; /* 🔧 un poquito más para dar presencia */
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  

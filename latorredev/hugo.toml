@@ -1,5 +1,0 @@
-baseURL = "http://localhost:1313/"
-languageCode = "es"
-title = "LatorreDev"
-theme = "latorredev-terminal-style" # 💡 Exactamente así como lo tienes en /themes/
-
