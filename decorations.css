@@ -39,4 +39,24 @@
     color: #863ab3;
   }
   
+  @media (max-width: 768px) {
+    .background-top {
+      height: 20vh;
+    }
+  
+    .background-bottom {
+      height: 20vh;
+      bottom: -2vh;
+    }
+  
+    body {
+      padding-top: 22vh;
+      padding-bottom: 25vh;
+    }
+  
+    .site-footer {
+      margin-top: 25vh;
+    }
+  }
+  
   
