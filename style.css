@@ -9,6 +9,8 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 2rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
   
   h1, p, a {
@@ -80,4 +82,28 @@ body {
   @keyframes blink {
     50% { opacity: 0; }
   }
+
+  .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .social-item {
+    text-align: center;
+    font-size: 0.6rem;
+    color: #00FF00;
+  }
+  
+  .site-footer {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 0.6rem;
+    color: #863ab3;
+  }
+  
   
