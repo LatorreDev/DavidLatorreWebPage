@@ -18,7 +18,7 @@ tfoot, thead, tr, th, td, article, aside,
 canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
-	margin: 0;
+	margin: 1;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -33,6 +33,7 @@ body {
 	line-height: 1;
 }
 
+
 h2{
 	font-size: 2em;
 	font-weight: 900;
@@ -43,7 +44,7 @@ h2{
 
 img{
 	display: block;
-	width: 15vw;
+	max-width: 10vw;
 	height: auto;
 	margin: 1em auto 0;
 }
@@ -91,6 +92,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scroll-behavior: smooth;
 	}
 
 	*, *:before, *:after {
@@ -99,7 +101,8 @@ input, select, textarea {
 
 	body {
 		background: #000000;
-		overflow: hidden;
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 
 
@@ -153,7 +156,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 900;
+			font-weight: 200;
 		}
 
 		.icon.brands:before {
@@ -162,14 +165,13 @@ input, select, textarea {
 
 /* Main */
 
-	#main {
-		height: 100%;
-		left: 0;
-		position: fixed;
-		text-align: center;
-		top: 0;
-		width: 100%;
-	}
+		#main {
+			min-height: 100vh;
+			position: relative;
+			text-align: center;
+			width: 100%;
+		}
+
 
 		#main:before {
 			content: '';
@@ -470,10 +472,10 @@ input, select, textarea {
 					-webkit-transition: all 0.2s ease-in-out;
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
-					border-radius: 100%;
+					border-radius: 50%;
 					border: solid 1px #fff;
 					display: block;
-					font-size: 1.75em;
+					font-size: 1.5em;
 					height: 2.5em;
 					line-height: 2.5em;
 					position: relative;
@@ -488,7 +490,7 @@ input, select, textarea {
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: #fff;
+						color: #04e23b;
 					}
 
 				#header nav a:active {
@@ -498,7 +500,7 @@ input, select, textarea {
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: #fff;
+						color: #10d110;
 					}
 
 				#header nav a span {
@@ -701,8 +703,8 @@ input, select, textarea {
 			}
 
 			img {
-				max-width: 35vw;
-				max-height: 25vh;
+				max-width: 45vw;
+				max-height: 35vh;
 			}
 
 		/* BG */
