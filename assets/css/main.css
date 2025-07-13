@@ -43,9 +43,9 @@ h2{
 
 img{
 	display: block;
-	max-width: 10%;
-	height: 10%;
-	margin: 1em auto;
+	width: 15vw;
+	height: auto;
+	margin: 1em auto 0;
 }
 
 ol, ul {
@@ -698,6 +698,11 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 11pt;
+			}
+
+			img {
+				max-width: 35vw;
+				max-height: 25vh;
 			}
 
 		/* BG */
